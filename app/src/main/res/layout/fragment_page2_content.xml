@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:gravity="center"
+            android:text="2023年01月"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/te1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:gravity="center_vertical"
+            android:text="第19周"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="1"
+            android:gravity="center"
+            android:text="1月"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="53dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="周一"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="53dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="周二"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="53dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="周三"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="53dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="周四"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="53dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="周五"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="53dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="周六"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="53dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="周日"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="92dp"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="92dp"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="92dp"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="92dp"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="92dp"
+                    android:ems="1"
+                    android:gravity="center"
+                    android:text="中午"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="92dp"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="92dp"
+                    android:gravity="center"
+                    android:text="6"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="92dp"
+                    android:gravity="center"
+                    android:text="7"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="92dp"
+                    android:gravity="center"
+                    android:text="8"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="92dp"
+                    android:ems="1"
+                    android:gravity="center"
+                    android:text="晚上"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="92dp"
+                    android:gravity="center"
+                    android:text="9"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="92dp"
+                    android:gravity="center"
+                    android:text="10"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="92dp"
+                    android:gravity="center"
+                    android:text="11"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="92dp"
+                    android:gravity="center"
+                    android:text="12"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="53dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/o_text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:background="@drawable/table_background1"
+                    android:text="@东1206 综合英语3"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/o_text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:background="@drawable/table_background4"
+                    android:text="@东1206 概率论与数理统计"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp" />
+
+                <TextView
+                    android:id="@+id/o_text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:background="@drawable/table_background2"
+                    android:text="@东区运动场 轮滑俱乐部"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/o_text4"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp" />
+
+                <TextView
+                    android:id="@+id/o_text5"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:background="@drawable/table_background4"
+                    android:text="@东1112 马克思主义基本原理"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="53dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t_text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/t_text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:background="@drawable/table_background4"
+                    android:text="@东2203 计算机组成原理"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp" />
+
+                <TextView
+                    android:id="@+id/t_text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:background="@drawable/table_background1"
+                    android:text="@东1411 数字电子技术"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/t_text4"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:background="@drawable/table_background3"
+                    android:text="@东1302 面向对象程序设计方法"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp" />
+
+                <TextView
+                    android:id="@+id/t_text5"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="53dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/th_text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/th_text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:background="@drawable/table_background3"
+                    android:text="@东2208 算法分析与设计"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp" />
+
+                <TextView
+                    android:id="@+id/th_text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:background="@drawable/table_background4"
+                    android:text="@3112 马克思主义基本原理"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:text="@东4110 概率论与数理统计"
+                    android:background="@drawable/table_background4"
+                    android:id="@+id/th_text4"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp" />
+
+                <TextView
+                    android:id="@+id/th_text5"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="53dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/f_text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:background="@drawable/table_background4"
+                    android:text="@东2205 计算机组成原理"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/f_text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:background="@drawable/table_background1"
+                    android:text="@东2411 数字电子技术"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp" />
+
+                <TextView
+                    android:id="@+id/f_text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/f_text4"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp" />
+
+                <TextView
+                    android:id="@+id/f_text5"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:background="@drawable/table_background4"
+                    android:text="@东1212 形势与政策3(四年制)"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="53dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/fi_text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/fi_text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp" />
+
+                <TextView
+                    android:id="@+id/fi_text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/fi_text4"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp" />
+
+                <TextView
+                    android:id="@+id/fi_text5"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="53dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/s_text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:background="@drawable/table_background4"
+                    android:text="@东区运动场 大学体育[3]-团体操"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/s_text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:background="@drawable/table_background4"
+                    android:text="@东区运动场 大学体育[3]-团体操"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp" />
+
+                <TextView
+                    android:id="@+id/s_text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/s_text4"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp" />
+
+                <TextView
+                    android:id="@+id/s_text5"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="53dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/se_text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="373dp"
+                    android:layout_margin="1.5dp"
+                    android:background="@drawable/table_background4"
+                    android:text="@东区东6教学楼E4-07组成原理实验室 计算机组成原理实验"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TooManyViews" />
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/se_text2"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="185dp"-->
+                <!--                    android:layout_margin="1.5dp"-->
+                <!--                    android:textAlignment="center"-->
+                <!--                    android:textColor="@color/white"-->
+                <!--                    android:textSize="15sp"-->
+                <!--                    android:textStyle="bold"-->
+                <!--                    tools:ignore="HardcodedText" />-->
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp" />
+
+                <TextView
+                    android:id="@+id/se_text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/se_text4"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp" />
+
+                <TextView
+                    android:id="@+id/se_text5"
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:layout_margin="1.5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
